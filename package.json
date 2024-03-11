@@ -1,0 +1,13 @@
+{
+  "name": "javscript-algorithim-scripting",
+  "version": "1.0.0",
+  "description": "",
+  "main": "find prime numbers.js",
+  "scripts": {
+    
+    "start": "nodemon x.js"
+  },
+  "keywords": [],
+  "author": "Gusman",
+  "license": "ISC"
+}

@@ -1,0 +1,22 @@
+function diffArray(arr1, arr2) {
+    let newArr = [];
+    let newArray=[];
+    newArr=arr1.concat(arr2).sort()
+  
+    for(let i=0;i<newArr.length;i++){
+      
+      if(newArr[i]==newArr[i+1]){
+        i+=1
+     }
+       else {
+       newArray.push(newArr[i])
+     
+     }
+  
+    }
+    return newArray;
+  }
+  
+   console.log(diffArray([1, "calf", 3, "piglet"], [1, "calf", 3, 4]));
+  
+   
