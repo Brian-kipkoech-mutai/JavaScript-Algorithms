@@ -10,3 +10,9 @@ function addTogether() {
   
   // console.log(addTogether(2))
               console.log(addTogether(3)(2));
+
+
+
+
+              
+              

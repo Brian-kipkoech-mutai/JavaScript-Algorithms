@@ -1,6 +1,8 @@
 function palindrome(str) {
     //matching string
     const myRegex=/[a-z0-9]+/g;
+
+   
     console.log(str.match(myRegex).join('').split(''))
     // reversing the matched string
    let reversed=str
