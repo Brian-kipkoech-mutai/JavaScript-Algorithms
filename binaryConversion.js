@@ -1,5 +1,6 @@
-const toBinary=(input)=>{
-    console.log('input',input);
+const toBinary=(...input)=>{
+    
+      console.log('input',input);
     let binaryString='';
     while (input>0) {
     binaryString+=input%2;
@@ -22,8 +23,13 @@ const toBinary=(input)=>{
 
    
 
-  toBinary(20)
+  toBinary(2)
 
 
 
-  
+  function myFunction(num) {
+    console.log(num>0); // Output: 'number'
+}
+
+// Example usage:
+myFunction([0]); 
